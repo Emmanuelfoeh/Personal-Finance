@@ -4,17 +4,11 @@ import ThemeToggle from "./components/ThemeToggle.vue";
 </script>
 
 <template>
-  <main class="flex gap-x-8 bg-amber-200 dark:bg-purple-300 h-screen">
+  <main class="flex gap-x-10 h-screen overflow-y-">
     <!-- The side bar -->
     <div class="w-[18%] bg-gray-950 rounded-tr-2xl rounded-br-2xl">
       <h2 class="text-white dark:text-green-500 px-8 py-10">Finance</h2>
       <ul class="flex flex-col gap-y-2.5">
-        <!-- <li
-          class="flex items-center gap-x-4 p-4 text-gray-900 dark:text-gray-200 bg-amber-50 dark:bg-gray-800 hover:bg-white w-[90%] border-l-4 border-l-green-900 rounded-tr-2xl rounded-br-2xl"
-        >
-          <i class="pi pi-home text-2xl text-green-900"></i>
-          <router-link to="/"> Overview </router-link>
-        </li> -->
         <li>
           <SidebarLink :to="{ name: 'home' }" label="Overview">
             <template #icon>
@@ -55,7 +49,7 @@ import ThemeToggle from "./components/ThemeToggle.vue";
         <ThemeToggle />
       </div>
     </div>
-    <div class="flex grow">
+    <div class="flex grow bg-beige-100 overflow-y-scroll">
       <RouterView />
     </div>
   </main>

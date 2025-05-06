@@ -28,4 +28,9 @@
   --color-primary: #201f24;
   --color-secondary: #f8f4f0;
   --color-tertiary: #ffffff;
+  --color-pf-cyan: #82c9d7;
+}
+
+.card {
+  @apply rounded-xl shadow bg-white p-8;
 }
