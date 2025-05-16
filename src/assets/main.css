@@ -32,5 +32,11 @@
 }
 
 .card {
-  @apply rounded-xl shadow bg-white p-8;
+  @apply rounded-xl shadow bg-white p-6;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 0.7rem;
+  }
 }

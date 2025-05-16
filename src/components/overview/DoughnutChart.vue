@@ -1,11 +1,6 @@
 <template>
   <div class="flex justify-center">
-    <Chart
-      type="doughnut"
-      :data="chartData"
-      :options="chartOptions"
-      class="w-full md:w-[15rem]"
-    />
+    <Chart type="doughnut" :data="chartData" :options="chartOptions" class="w-full" />
   </div>
 </template>
 
@@ -47,7 +42,7 @@ const setChartData = () => {
 const setChartOptions = () => {
   return {
     responsive: true,
-    cutout: "70%",
+    cutout: "60%",
     plugins: {
       legend: {
         display: false
