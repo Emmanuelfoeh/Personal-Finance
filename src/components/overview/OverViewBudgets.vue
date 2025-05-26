@@ -11,7 +11,6 @@
     >
       <div class="flex justify-center w-[70%]">
         <DoughnutChart />
-        <!-- <BudgetDashboard /> -->
       </div>
 
       <ul class="grid grid-cols-2 w-full md:grid-cols-1 gap-3 md:w-[30%]">

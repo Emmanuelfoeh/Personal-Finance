@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// import BudgetDashboard from "@/components/overview/BudgetDashboard.vue";
 import DashboardCard from "@/components/overview/DashboardCard.vue";
 import OverViewBudgets from "@/components/overview/OverViewBudgets.vue";
 import OverviewPots from "@/components/overview/OverviewPots.vue";
